@@ -14,17 +14,27 @@ In-depth analyses of American Community Survey (ACS) hearing difficulty data. I 
 ├── LICENSE
 ├── README.md
 ├── cleaning
-│   └── states_cleaning.ipynb
+│   ├── county_cleaning.ipynb
+│   ├── deaf_schools_cleaning.ipynb
+│   ├── districts_cleaning.ipynb
+│   ├── states_cleaning.ipynb
+│   └── zipcode_cleaning.ipynb
 └── data
     ├── county_2023
     │   ├── clean
+    │   │   └── acs_county2023.csv
     │   └── raw
     │       ├── ACSDT5Y2023.B18102-Column-Metadata.csv
     │       ├── ACSDT5Y2023.B18102-Data.csv
     │       └── ACSDT5Y2023.B18102-Table-Notes.txt
-    ├── k_12_deaf_2023.csv
+    ├── deaf_schools_2023
+    │   ├── clean
+    │   │   └── deaf_schools2023.csv
+    │   └── raw
+    │       └── k_12_deaf_2023.csv
     ├── school_districts_unified_2023
     │   ├── clean
+    │   │   └── acs_school_districts_unified2023.csv
     │   └── raw
     │       ├── ACSDT5Y2023.B18102-Column-Metadata.csv
     │       ├── ACSDT5Y2023.B18102-Data.csv
@@ -37,11 +47,12 @@ In-depth analyses of American Community Survey (ACS) hearing difficulty data. I 
     │       ├── ACSDT5Y2023.B18102-Data.csv
     │       └── ACSDT5Y2023.B18102-Table-Notes.txt
     └── zipcode_2023
+        ├── clean
+        │   └── acs_zipcodes2023.csv
         └── raw
             ├── ACSDT5Y2023.B18102-Column-Metadata.csv
             ├── ACSDT5Y2023.B18102-Data.csv
-            ├── ACSDT5Y2023.B18102-Table-Notes.txt
-            └── clean
+            └── ACSDT5Y2023.B18102-Table-Notes.txt
 ```
 
 ---
